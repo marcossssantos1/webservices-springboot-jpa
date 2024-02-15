@@ -1,6 +1,4 @@
 package com.educandoweb.course.resources;
-import org.springframework.web.bind.annotation.PathVariable;
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
