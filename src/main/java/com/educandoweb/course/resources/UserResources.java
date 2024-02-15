@@ -10,13 +10,12 @@ import com.educandoweb.course.entities.User;
 @RestController
 @RequestMapping(value = "/users")
 public class UserResources {
-	
+
 	@GetMapping
-	public ResponseEntity<User> findAll(){
+	public ResponseEntity<User> findAll() {
 		User u = new User(1l, "Marcos", "Marcos@gmail.com", "9999", "1234");
-		
+
 		return ResponseEntity.ok().body(u);
 	}
-	
 
 }
